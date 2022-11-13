@@ -1,0 +1,12 @@
+def finalValueAfterOperations(self, operations: List[str]) -> int:
+        summ = 0
+        for op in operations:
+            if '-' in op:
+                summ-=1
+            else :
+                summ+=1
+        return summ
+      
+      
+operations = ["--X","X++","X++"]
+finalValueAfterOperations(operations)
